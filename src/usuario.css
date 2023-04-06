@@ -51,7 +51,7 @@ body {
 * Lista de Comentarios
 =======================*/
 .comments-container {
- margin: 60px auto 15px;
+ margin: 50px auto 100px;
  width: 768px;
 }
 
@@ -59,11 +59,6 @@ body {
  font-size: 36px;
  color: #283035;
  font-weight: 400;
-}
-
-.comments-container h1 a {
- font-size: 18px;
- font-weight: 700;
 }
 
 .comments-list {
@@ -78,37 +73,11 @@ body {
  content: '';
  width: 2px;
  height: 100%;
- background: #c7cacb;
+ background: #58c078;
  position: absolute;
  left: 32px;
  top: 0;
 }
-
-.comments-list:after {
- content: '';
- position: absolute;
- background: #c7cacb;
- bottom: 0;
- left: 27px;
- width: 7px;
- height: 7px;
- border: 3px solid #dee1e3;
- -webkit-border-radius: 50%;
- -moz-border-radius: 50%;
- border-radius: 50%;
-}
-
-.reply-list:before, .reply-list:after {display: none;}
-.reply-list li:before {
- content: '';
- width: 60px;
- height: 2px;
- background: #c7cacb;
- position: absolute;
- top: 25px;
- left: -55px;
-}
-
 
 .comments-list li {
  margin-bottom: 15px;
@@ -120,14 +89,6 @@ body {
  content: '';
  display: block;
  clear: both;
- height: 0;
- width: 0;
-}
-
-.reply-list {
- padding-left: 88px;
- clear: both;
- margin-top: 15px;
 }
 /**
 * Avatar
@@ -176,31 +137,8 @@ body {
  -moz-box-shadow: 0 1px 1px rgba(0,0,0,0.15);
  box-shadow: 0 1px 1px rgba(0,0,0,0.15);
 }
-
-.comments-list .comment-box:before, .comments-list .comment-box:after {
- content: '';
- height: 0;
- width: 0;
- position: absolute;
- display: block;
- border-width: 10px 12px 10px 0;
- border-style: solid;
- border-color: transparent #FCFCFC;
- top: 8px;
- left: -11px;
-}
-
-.comments-list .comment-box:before {
- border-width: 11px 13px 11px 0;
- border-color: transparent rgba(0,0,0,0.05);
- left: -12px;
-}
-
-.reply-list .comment-box {
- width: 610px;
-}
 .comment-box .comment-head {
- background: #FCFCFC;
+ background: #58c078;
  padding: 10px 12px;
  border-bottom: 1px solid #E5E5E5;
  overflow: hidden;
@@ -239,7 +177,7 @@ body {
 
 .comment-box .comment-head span {
  float: left;
- color: #999;
+ color: rgb(255, 255, 255);
  font-size: 13px;
  position: relative;
  top: 1px;
@@ -255,10 +193,10 @@ body {
  border-radius: 0 0 4px 4px;
 }
 
-.comment-box .comment-name.by-author, .comment-box .comment-name.by-author a {color: #03658c;}
+.comment-box .comment-name.by-author, .comment-box .comment-name.by-author a {color: #ffffff;}
 .comment-box .comment-name.by-author:after {
  content: 'autor';
- background: #03658c;
+ background: #626262;
  color: #FFF;
  font-size: 12px;
  padding: 3px 5px;
@@ -287,38 +225,19 @@ body {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
 #wrapper {
-  background: #444;
-  width: 390px;
+  background: rgb(255, 255, 255);
+  width: 700px;
   overflow: hidden;
-  height: 250px;
+  height: 255px;
   font-family: "PT Sans Narrow", "Fjalla One", sans-serif;
   border-radius: 3px;
   border: 3px solid #fff;
-  box-shadow: 0 0 2px #444;
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  cursor: default;
-  margin: auto
+  box-shadow: 0 0 7px rgb(0, 0, 0);
 }
 
 #header {
-  background: #ed6639;
+  background: #58c078;
   color: #fff;
   height: 50px;
   border-bottom: 3px solid #fff;
@@ -329,68 +248,65 @@ body {
 }
 
 #slider {
-  background: #444;
-  width: 750px;
-  height: 178px;
-  -webkit-transition: margin-left .5s cubic-bezier(0, 1, 0.5, 1);
-  -moz-transition: margin-left .5s cubic-bezier(0, 1, 0.5, 1);
-  -o-transition: margin-left .5s cubic-bezier(0, 1, 0.5, 1);
-  transition: margin-left .5s cubic-bezier(0, 1, 0.5, 1);
+  background: #ffffff;
   padding: 10px
 }
 
-#slider:hover {
-  margin-left: -380px
-}
-
-.screen {
-  width: 370px;
-  height: 180px;
+.screenn {
+  width: 200px;
   float: left;
-  color: #fff
+}
+.screen h4 {
+  width: 250px;
+  float: left;
+}
+.screen {
+  padding:53px;
+  width: 290px;
+  float: left;
 }
 
 .screen:not(:first-child) {
-  margin-left: 10px
+  margin-left: 140px
 }
 
 .profile-picture {
   width: 80px;
   height: 80px;
   border-radius: 50px;
-  border: 3px solid #fff;
-  background: #888;
+  border: 2px solid rgb(255, 255, 255);
   display: block;
   margin: 30px auto auto
 }
 
 .profile-owner, .ttch {
-  color: #fff;
+  color: rgb(0, 0, 0);
   text-align: center;
   font-weight: 700;
-  font-size: 1.3em;
-  padding: 5px
+  font-size: 1.2em;
+  padding: 6px
 }
 
 .ttch {
-  font-size: 12px;
-  margin: 0;
-  padding: 0
-}
-
-.profile-description {
-  margin-top: 30px;
-  font-size: 1em
+  font-size: 14px;
+  margin: 75;
+  padding: 0;
 }
 
 .profile-description p {
-  text-align: center;
-  margin: 0
+  text-align:right;
+  margin: 65
 }
 
 .profile-description p a {
   text-decoration: none;
   color: #fff
 }
-  
+.alinhando{
+  display: flex;
+  align-items: center;
+}
+.alinhando h4{
+   padding-left: 1px;
+}
   
