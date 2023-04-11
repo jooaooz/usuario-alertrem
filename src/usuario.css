@@ -157,7 +157,7 @@ body {
 /** =====================
 * Responsive
 ========================*/
-@media only screen and (max-width: 726px) {
+@media only screen and (max-width: 746px) {
 .container{
   width: 20px;
 }
@@ -170,14 +170,12 @@ body {
 }
 .comments-list li{
   width: 10px;
-
 }
 .screenn{
- padding-left: 250px;
+ padding-left: 180px;
+ padding-bottom: 500px;
 }
-.profile-picture{
-  padding-top: 1px;
- }
+
 .comments-list li:after {
   width: 320px;
   background-color: #ffc8c8;
@@ -211,7 +209,18 @@ background-color: #ffffff;
  .reply-list .comment-box {
    width: 320px;
  }
+.comentarios{
+padding-right: 260px;
+}
 
+@media only screen and (max-width: 700px) {
+  .wrapper{
+    width: 400px;
+  }
+  .profile-picture{
+    padding-left: 0px;
+   }
+}
 }
 
 .wrapper {
@@ -245,9 +254,8 @@ background-color: #ffffff;
   float: left;
 }
 .screen {
-  padding:53px;
-  width: 290px;
-  float: left;
+  display: flex;
+  display: inline-flex;
 }
 
 .screen:not(:first-child) {
@@ -276,14 +284,28 @@ background-color: #ffffff;
   margin: 75;
   padding: 0;
 }
+.profile-description{
+  padding: 100px;
+  padding-right: 20px;
+  padding-bottom: 100px;
+}
+.profile-description h4{
+  padding-right: 20%;
+
+}
 
 .profile-description p {
   text-align:right;
   margin: 65;
+  
 }
 
 .profile-description p a {
   text-decoration: none;
   color: #fff;
 }
+.parte-foto{
+  padding-left: 5%;
+}
+
   
