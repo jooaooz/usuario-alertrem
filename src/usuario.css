@@ -26,7 +26,7 @@ body {
 * Lista de Comentarios
 =======================*/
 .comments-container {
- margin: 50px auto 100px;
+ margin: 50px auto 80px;
  width: 768px;
 }
 
@@ -132,7 +132,7 @@ body {
 
 .comment-box .comment-content {
  background: #FFF;
- padding: 12px;
+ padding: 9px;
  font-size: 15px;
  color: #595959;
  -webkit-border-radius: 0 0 4px 4px;
@@ -166,7 +166,10 @@ body {
 
 }
 .comment-avatar img {
-  padding-right: 2px;
+display: none;
+}
+.comment-avatar{
+  display: none;
 }
 .comments-list li{
   width: 10px;
@@ -183,19 +186,11 @@ body {
 .comments-list:before {
 background-color: #ffffff;
 }
-.comments-list .comment-avatar img {
-  width: 30px;
-  height: 30px;
-}
-.comments-list{
-  width: 1px;
-}
-
  .comment-head{
   width: 320px;
  }
  .comments-container{
-  width: 20px;
+  width: 10px;
  }
  .comments-list .comment-avatar{
   width: 200px;
@@ -221,6 +216,12 @@ padding-right: 260px;
   .profile-picture{
     padding-left: 0px;
    }
+}
+.comments-list li {
+  margin-bottom: 30px;
+  display: block;
+  position: relative;
+  width: 2px;
 }
 }
 
@@ -286,7 +287,7 @@ padding-right: 260px;
   padding: 0;
 }
 .profile-description{
-  padding: 80px;
+  padding: 60px;
 }
 .profile-description h4{
   padding-left: 40px;
