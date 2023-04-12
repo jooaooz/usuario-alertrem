@@ -216,6 +216,7 @@ padding-right: 260px;
 @media only screen and (max-width: 700px) {
   .wrapper{
     width: 400px;
+   
   }
   .profile-picture{
     padding-left: 0px;
@@ -285,13 +286,10 @@ padding-right: 260px;
   padding: 0;
 }
 .profile-description{
-  padding: 100px;
-  padding-right: 20px;
-  padding-bottom: 100px;
+  padding: 80px;
 }
 .profile-description h4{
-  padding-right: 20%;
-
+  padding-left: 40px;
 }
 
 .profile-description p {
