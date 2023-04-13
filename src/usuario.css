@@ -151,7 +151,7 @@ body {
 
 .comment-box .comment-name.by-author:after {
   content: 'autor';
-  background:			#4F4F4F;
+  background: #4F4F4F;
   color: #FFF;
   font-size: 12px;
   padding: 3px 5px;
@@ -169,7 +169,7 @@ body {
   .container {
     width: 20px;
   }
-  
+
   .comments-container h1 {
     padding-left: 260%;
   }
@@ -225,17 +225,18 @@ body {
 
   .reply-list .comment-box {
     width: 320px;
-    
+
   }
 
   .comentarios {
     padding-right: 72%;
   }
- /* ESPAÇAMENTO ENTRE O "COMENTARIO" E PARTE DE CIMA */
+
+  /* ESPAÇAMENTO ENTRE O "COMENTARIO" E PARTE DE CIMA */
   .comments-list {
     margin-top: 35px;
 
-}
+  }
 
   @media only screen and (max-width: 700px) {
     .wrapper {
